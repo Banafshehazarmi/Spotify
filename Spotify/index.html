@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="mainform" action="https://httpbin.org/anything" method="post">
+      <div class="logo"><img src="Spotify_Logo_CMYK_Black copy.jpg" /></div>
+
+      <div class="signup">
+        <p><strong>Sign up for free to start listening.</strong></p>
+      </div>
+
+      <button class="fbB">Sign up with Facebook</button>
+
+      <button class="gooB">Sign up with Google</button>
+
+      <div class="or">
+        <p>-------------------- or -------------------</p>
+      </div>
+
+      <div class="signupE">
+        <h3>Sign up with your email address</h3>
+      </div>
+
+      <div class="email">
+        <label for="email">What's your email?</label>
+        <input id="email" name="email" type="email" required />
+      </div>
+
+      <div class="password">
+        <label for="password">Creat a password</label>
+        <input id="password" name="password" type="password" required />
+      </div>
+
+      <div class="birthday">
+        <div class="year">
+          <lable for="year">Year</lable>
+          <input id="year" name="year" type="text" required />
+        </div>
+
+        <div class="month">
+          <lable for="month">Month</lable>
+          <select name="month" id="month">
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+          </select>
+        </div>
+        <div class="day">
+          <lable for="day">Day</lable>
+          <input id="day" name="day" type="text" required />
+        </div>
+      </div>
+
+      <p class="gender">What's your gender?</p>
+
+      <div class="gen">
+        <input type="radio" value="man" name="gender" id="man" /><label
+          class="labeltext"
+          for="man"
+          >Man</label
+        >
+        <input type="radio" value="woman" name="gender" id="woman" /><label
+          class="labeltext"
+          for="woman"
+          >Woman</label
+        >
+        <input type="radio" value="neither" name="gender" id="neither" /><label
+          class="labeltext"
+          for="neither"
+          >Neither</label
+        >
+      </div>
+      <button class="send"><b>Sign up</b></button>
+    </form>
+  </body>
+</html>
